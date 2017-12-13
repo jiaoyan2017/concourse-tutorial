@@ -4,6 +4,7 @@ resources:
   type: git
   source:
     uri: https://github.com/clhynfield/concourse-tutorial.git
+    branch: follow-tutorial
 
 jobs:
 - name: job-pass-files

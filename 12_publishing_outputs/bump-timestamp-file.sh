@@ -9,8 +9,8 @@ cd updated-gist
 echo $(date) > bumpme
 touch bumpme2
 
-git config --global user.email "nobody@concourse.ci"
-git config --global user.name "Concourse"
+git config --global user.email "yan.jiao@thistech.com"
+git config --global user.name "Yan Jiao"
 
 git add .
 git commit -m "Bumped date"

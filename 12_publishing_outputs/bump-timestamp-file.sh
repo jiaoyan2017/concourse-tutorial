@@ -6,8 +6,7 @@ set -x # print commands
 git clone resource-gist updated-gist
 
 cd updated-gist
-echo $(date) > bumpme
-touch bumpme2
+echo $(date) > bumpme2
 
 git config --global user.email "yan.jiao@thistech.com"
 git config --global user.name "Yan Jiao"
